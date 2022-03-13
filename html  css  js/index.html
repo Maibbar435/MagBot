@@ -1,22 +1,49 @@
 <!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Главная</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/style.css?_v=20220313173119" />
+    <link rel="shortcut icon" href="img/icons/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<html>
-    <head>
-        <link href="./Style.css" rel = "stylesheet">
-        <title>MagBot MainTitle</title> 
-    </head>
-    <body>
-        <header>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <picture
+              ><source srcset="img/main/Ava.webp" type="image/webp" />
+              <img class="header__image" src="img/main/Ava.jpg" alt="Logo"
+            /></picture>
+          </div>
+        </div>
+      </header>
 
-        </header>
-        <main>
-            <aside>
-
-            </aside>
-            <article>
-
-            </article>
-        </main>
-    </body>
-    <script href = "Script.js"></script>
+      <main class="page">
+        <div class="commands">
+          <div class="commands__container">
+            <ul class="commands__list">
+              <li class="commands__item">Lorem ipsum dolor sit amet.</li>
+              <li class="commands__item">Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+              <li class="commands__item">Lorem ipsum dolor sit amet.</li>
+              <li class="commands__item">Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</li>
+              <li class="commands__item">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</li>
+              <li class="commands__item">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
+              <li class="commands__item">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
+              <li class="commands__item">Lorem ipsum dolor.</li>
+            </ul>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <a href="https://discord.com/api/oauth2/authorize?client_id=938840532073975889&permissions=8&scope=bot" target="_blank" class="footer__button">Подключить</a>
+        </div>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20220313173119"></script>
+  </body>
 </html>
